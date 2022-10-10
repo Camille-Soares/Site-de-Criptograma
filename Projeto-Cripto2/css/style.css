@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(135deg, #022859 10%, #033E8C 60%, #056CF2 50%);
+}
+
+/* header */
+
+header{
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px;
+    background: rgba(185, 185, 185, 0.747);
+    border: 5px solid white;
+    border-radius: 10%;
+    width: 50%;
+    text-align: center;
+}
+
+
+/* layout */ 
+
+#Formulario-principal{
+    border: 3px solid black;
+    width: 40%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 3em;
+    text-align: center;
+    background: rgba(54, 53, 53, 0.3)
+}
+
+#formulario{
+    font-size: small;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+}
+
+label h1{
+    margin-top: -30px;
+}
+
+textarea{
+    width: 50%;
+    height: 30pt;
+}
+
+/* Mensagem codificar / Descodificada */
+
+#Dmsg{
+    display: none;
+    border-radius: 10%;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 40%;
+    background: #fff;
+    padding: 15px;
+}
+
+/* botão */
+
+#btn{
+    width: 40%;
+    height: 40px;
+    background: rgba(255, 238, 0, 0.884);
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+
+
+
+

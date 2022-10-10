@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptograma</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h2>Criptograma</h2>
+            <img width="80px" src="./img/cadeado2.png" alt="logo-cadeado">
+        </header>
+
+
+
+        <form action="">
+
+            <fieldset id='Formulario-principal'>
+                <div id="formulario">
+                    <label for="Mcriptrografada">
+                        <h1>Mensagem Criptografada</h1>
+                    </label>
+                    <br>
+                    <label for="msg'">
+                        <h2>Código de Cesar</h2>
+                        <br>
+                    </label>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+
+                    <label for="number" id="intervalo">
+                        <h3>Intervalo:</h3>
+                    </label>
+                    <input type="number" id="number">
+
+                    <br>
+                    <br>
+
+                    <label for="Dmsg">
+                        <h2>Codificandor/Decodificandor de Mensagem</h2>
+                    </label>
+                    <br>
+                    <br>
+                    <div id="Dmsg"></div>
+                    <br>
+
+                    <button type="button" id="btn" onclick="codificar()">Codificar</button>
+                    <button id="btn" type="button" onclick="Decodificar()">Decodificar</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <form action="">
+
+            <fieldset id='Formulario-principal'>
+                <div id="formulario">
+                    <br>
+                    <h2>Base64</h2>
+                    <br>
+                    <textarea id="msg1" cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+                    <label for="Dmsg1">
+                        <h2>Codificandor/Decodificandor de Mensagem</h2>
+                    </label>
+                    <br>
+                    <br>
+                    <div id="DM"></div>
+
+                    <button id="btn" type="button" onclick="codar()">Codificar</button>
+                    <button id="btn" type="button" onclick="descodar()">Decodificar</button>
+                </div>
+            </fieldset>
+
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
